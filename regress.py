@@ -1,3 +1,14 @@
+"""
+Given a set of points in the format (x, y)
+This program outputs relevant statistical information:
+Standard deviation, R value, and RMSE
+This program also plots 2 graphs:
+-One with the set of points, regression line, and square
+-The other is the residual plot 
+
+Micah Mok
+11/15/2024
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 
