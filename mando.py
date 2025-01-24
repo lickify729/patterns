@@ -37,10 +37,10 @@ def mandelbrot_set(width, height, bound_value, max_iterations, equation):
 # get user inputs
 width = int(input("Enter the width of the image: "))
 height = int(input("Enter the height of the image: "))
-bound_value = float(input("Enter the boundary value (e.g., 2): "))
+bound_value = float(input("Enter the boundary value (Ex: 2): "))
 max_iterations = int(input("Enter the maximum number of iterations: "))
 
-print("Enter a custom Mandelbrot equation using 'z' and 'c' (e.g., 'z**2 + c'): ")
+print("Enter a custom Mandelbrot equation using 'z' and 'c' (Ex: 'z**2 + c'): ")
 equation = input("Equation: ")
 
 # color maps
